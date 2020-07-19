@@ -1,0 +1,6 @@
+.image-wrapper {
+  display: flex;
+  position: absolute;
+  height: auto;
+  width: 200px;
+}

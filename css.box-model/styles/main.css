@@ -1,0 +1,89 @@
+body {
+  align-items: center;
+  padding: 0 170px;
+  text-align: center;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #ffe5e5 37.5%,
+    #ffffff 37.5%,
+    #ffffff 50%,
+    #ffe5e5 50%,
+    #ffe5e5 87.5%,
+    #ffffff 87.5%,
+    #ffffff 100%
+  );
+  background-size: 160px 160px;
+}
+
+.title {
+  align-items: center;
+  margin: auto;
+  padding: 130px 10px 10px 10px;
+}
+
+.title-moto {
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #898f99;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.title-heading {
+  font-size: 48px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #0ec8cb;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.title-text {
+  width: 513px;
+  height: 65px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.iconboxes {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 90px 0 10px 0;
+  align-items: center;
+}
+
+.outerbox {
+  width: 25%;
+  height: 420px;
+  background-color: #f7f7f7;
+  border: 1px solid #ececec;
+  opacity: 0.4;
+}
+
+.innerbox {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+div > .innerbox:hover {
+  width: 102%;
+  height: 420px;
+  background-color: #0ec8cb;
+  border: 1px solid #0ec8cb;
+  color: white;
+}
